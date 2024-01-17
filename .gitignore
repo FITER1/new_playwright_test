@@ -1,0 +1,23 @@
+# Exclude library downloads and reporting artefacts
+node_modules/
+test-results/
+playwright-report/
+playwright/.cache/
+testFiles/
+**/.DS_Store
+
+# Exclude IDE editor tool files
+.vscode
+.idea
+
+# Exclude local settings that could interfere with other users or pipelines
+.env
+tsconfig.json
+playwright.config.ts
+package.json
+package-lock.json
+eslintrc.cjs
+.eslintrc.cjs
+
+#Special training files that do not compile (build successfully)
+templates/
